@@ -1,0 +1,31 @@
+{
+  "name": "blog_k",
+  "version": "1.0.0",
+  "description": "nodejs",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --inspect ./index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/khanhvo2211/nodejs_blog_k.git"
+  },
+  "keywords": [
+    "nodejs",
+    "F8"
+  ],
+  "author": "khanhvo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/khanhvo2211/nodejs_blog_k/issues"
+  },
+  "homepage": "https://github.com/khanhvo2211/nodejs_blog_k#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    
+    "nodemon": "^2.0.20"
+  }
+}
