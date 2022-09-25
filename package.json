@@ -5,7 +5,7 @@
   "main": "/src/index.js",
   "scripts": {
     "start": "nodemon --inspect ./src/index.js",
-    "watch":"node-sass --watch src/resources/scss/app.scss src/public/css/app.css",
+    "watch": "node-sass --watch src/resources/scss/app.scss src/public/css/app.css",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -24,7 +24,8 @@
   "homepage": "https://github.com/khanhvo2211/nodejs_blog_k#readme",
   "dependencies": {
     "express": "^4.18.1",
-    "express-handlebars": "^6.0.6"
+    "express-handlebars": "^6.0.6",
+    "mongoose": "^6.6.1"
   },
   "devDependencies": {
     "morgan": "^1.10.0",
